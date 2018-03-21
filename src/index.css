@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.form-container {
+  border: 2px solid #000;
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 5px 15px 10px;
+}
+
+.input-field {
+  border: 2px solid #000;
+  margin: 10px 10px 10px 0;
+  height: 50px;
+  width: 200px;
+  font-size: 22px;
+  padding: 5px;
+  outline: none;
+}
+
+.input-field:focus,
+.selector-field:focus {
+  background-color: navajowhite;
+  border: 2px solid #e26d17;
+}
+
+.select-container {
+  position: relative;
+}
+
+.selector-field {
+  border: 2px solid #000;
+  margin: 10px 10px 10px 0;
+  height: 65px;
+  width: 215px;
+  font-size: 22px;
+  padding: 5px;
+  outline: none;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  appearance: none;
+  border-radius: 0;
+}
+
+.select-arrow {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-bottom: 2px solid #000;
+  border-left: 2px solid #000;
+  transform: rotate(-45deg);
+  left: 185px;
+  top: 31px;
+}
+
+.submit-btn {
+  width: 215px;
+  height: 60px;
+  padding: 10px;
+  border: 2px solid #000;
+  margin-top: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+.submit-btn:hover,
+.submit-btn:active,
+.submit-btn:focus {
+  background-color: navajowhite;
+  border: 2px solid #e26d17;
+}
+
+/* MAILING LIST BEGINS */
+.mailing-list-container {
+  border: 2px solid #000;
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 5px 15px 25px;
+  background-color: rgb(242, 233, 216)
+}
+
+.mailing-list-header {
+  width: 100%;
+  text-align: 80%;
+}
+
+.submit-btn-container {
+  /* border: 2px solid #000; */
+  width: 80%;
+  margin: 5px auto 0;
+  padding: 5px 30px 10px 0;
+}
+
+.contact-container {
+  border-bottom: 2px solid #000;
+}
+
+.contact-container p {
+  margin: 3px 0;
+  padding: 0;
+}
+
+.contact-container p:last-child {
+  margin: 3px 0 15px;
+  padding: 0;
+}
+
+.shows-container {
+  outline: 2px solid #000;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  padding: 15px 0 5px;
+  flex-wrap: wrap;
+}
+
+.show {
+  width: calc(50% - 20px);
+  margin: 10px;
+}
+
+.show-content {
+  text-align: left;
+}
+
+.show-image {
+  height: 150px;
+}
+
+.show-image-1 {
+  background: url("./images/lincoln.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.show-image-2 {
+  background: url("./images/big-data.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.show-content p:first-child {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.show-content p {
+  margin: 0;
+}
+
+.purchase-ticket {
+  margin-top: 10px;
+}
+
+.purchase-ticket button {
+  height: 35px;
+  border: 2px solid rgb(242, 233, 216);
+  border-radius: 5px;
+  background-color: #fff;
+  width: 100%;
+  color: rgb(167, 142, 96);
+  font-size: 16px;
+  transition: .4s;
+}
+
+.purchase-ticket button:hover {
+  background-color: rgb(236, 198, 126);
+  color: #fff;
+}
+
+.reset-btn {
+  width: 215px;
+  height: 60px;
+  padding: 10px;
+  border: 2px solid #000;
+  margin-top: 10px;
+  font-size: 18px;
+  outline: none;
+}
+
+.reset-btn:hover,
+.reset-btn:active,
+.reset-btn:focus {
+  background-color: navajowhite;
+  border: 2px solid #e26d17;
+}
